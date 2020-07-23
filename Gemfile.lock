@@ -1,0 +1,53 @@
+PATH
+  remote: .
+  specs:
+    brandcash (0.1.0)
+      activesupport (>= 5.0, < 7.0)
+      dry-configurable
+      faraday
+      faraday_middleware
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.2.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    byebug (9.1.0)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
+    dry-configurable (0.7.0)
+      concurrent-ruby (~> 1.0)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
+    i18n (1.0.1)
+      concurrent-ruby (~> 1.0)
+    method_source (0.9.2)
+    minitest (5.11.3)
+    multipart-post (2.0.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    rake (10.5.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  brandcash!
+  bundler (~> 1.16)
+  pry-byebug
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.1
