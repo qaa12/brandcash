@@ -44,7 +44,7 @@ module Brandcash
       end
 
       def rate_limit_exceeded?
-        status == 429
+        status == 429 || status == 403
       end
 
       def incorrect_fpd?
